@@ -1,0 +1,10 @@
+{
+    "repositories": [
+        {
+            "name": "terraform-aws-module-1"
+        },
+        {
+            "name": "terraform-aws-module-2"
+        }	
+    ]
+}

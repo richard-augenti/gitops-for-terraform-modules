@@ -1,0 +1,41 @@
+.vscode/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Ignore Terraform override files
+.override.tf
+.override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore sensitive Terraform files
+.terraformrc
+terraform.tfvars
+terraform.tfvars.json
+
+# Ignore Terraform provider plugin directories
+.terraform/
+
+# Ignore lock files (Terraform 0.14+)
+.terraform.lock.hcl
+
+# Ignore plan output files
+*.tfplan
+
+# Ignore environment variables files
+.env
+.envrc
+
+# Ignore IDE specific files (for VS Code and IntelliJ)
+.vscode/
+.idea/
+
+# Ignore local execution logs and temp files
+*.log
+*.tmp
